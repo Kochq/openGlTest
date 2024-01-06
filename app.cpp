@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+void processInput(GLFWwindow *window) {
+    if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+        glfwSetWindowShouldClose(window, true);
+}
+
 int main(void) {
     GLFWwindow* window;
 
@@ -25,6 +30,8 @@ int main(void) {
     std::cout << glGetString(GL_VERSION) << std::endl;
 
     while(!glfwWindowShouldClose(window)) {
+        processInput(window);
+
         glClear(GL_COLOR_BUFFER_BIT);
 
         glBegin(GL_TRIANGLES);
