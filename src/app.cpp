@@ -66,7 +66,7 @@ int main(void) {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
 
-    ShaderProgramSource source = ParseShader("res/shaders/Basic.shader");
+    ShaderProgramSource source = ParseShader("../res/shaders/Basic.shader");
     unsigned int shader = CreateShader(source.VertexSource, source.FragmentSource);
     glUseProgram(shader);
 
