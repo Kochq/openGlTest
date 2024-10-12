@@ -8,3 +8,8 @@ g++ *.cpp -lglfw -lrt -lm -ldl -lX11 -lpthread -lxcb -lXau -lXdmcp -lGLEW -lEGL 
 pkg-config --static --libs glfw3
 pkg-config --static --libs glew
 ```
+
+#### Generate compile_commands.json to work with clangd
+```sh
+bear -- make
+```

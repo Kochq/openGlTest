@@ -1,0 +1,92 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "app.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/app.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "EBO.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/EBO.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "shaderClass.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/shaderClass.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "stb.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/stb.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "VAO.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/VAO.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++17",
+      "-O2",
+      "-I../Libraries/include",
+      "-o",
+      "a.out",
+      "VBO.cpp"
+    ],
+    "directory": "/home/koch/Workspace/openGlTest/src",
+    "file": "/home/koch/Workspace/openGlTest/src/VBO.cpp",
+    "output": "/home/koch/Workspace/openGlTest/src/a.out"
+  }
+]
