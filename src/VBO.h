@@ -1,9 +1,8 @@
 #pragma once
 
-#include<GL/glew.h>
+#include <GL/glew.h>
 
-class VBO
-{
+class VBO {
 public:
 	// Reference ID of the Vertex Buffer Object
 	GLuint ID;

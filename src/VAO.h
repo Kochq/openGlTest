@@ -1,22 +1,18 @@
 #pragma once
 
-#include<GL/glew.h>
-#include"VBO.h"
+#include "VBO.h"
+#include <GL/glew.h>
 
-class VAO
-{
+class VAO {
 public:
-	// ID reference for the Vertex Array Object
-	GLuint ID;
-	// Constructor that generates a VAO ID
-	VAO();
+    // ID reference for the Vertex Array Object
+    GLuint ID;
+    // Constructor that generates a VAO ID
+    VAO();
 
-	// Links a VBO to the VAO using a certain layout
-	void LinkVBO(VBO& VBO, GLuint layout);
-	// Binds the VAO
-	void Bind();
-	// Unbinds the VAO
-	void Unbind();
-	// Deletes the VAO
-	void Delete();
+    // Links a VBO to the VAO using a certain layout
+    void LinkVBO(VBO &VBO, GLuint layout);
+    void Bind();
+    void Unbind();
+    void Delete();
 };

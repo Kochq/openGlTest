@@ -53,7 +53,7 @@ int main(void) {
     glViewport(0, 0, 1920, 1080);
 
     // Create the shader object using the vertex and fragment shader
-    Shader shaderProgram("res/shaders/vert.shader", "res/shaders/frag.shader");
+    Shader shaderProgram("../res/shaders/vert.shader", "../res/shaders/frag.shader");
 
     // Generate Vertex array object and bind it
     VAO VAO1;
